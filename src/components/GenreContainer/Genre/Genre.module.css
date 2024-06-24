@@ -1,0 +1,16 @@
+.wrap_genre a {
+    box-sizing: border-box;
+    min-width: 150px;
+    min-height: 40px;
+    padding-left: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #12addb;
+    border-radius: 7px;
+    box-shadow: 15px 9px 20px -12px rgba(147, 242, 227, 1);
+    font: 20px bold;
+    text-decoration: none;
+    overflow-wrap: break-word;
+}

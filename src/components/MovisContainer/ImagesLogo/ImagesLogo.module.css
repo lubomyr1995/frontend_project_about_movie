@@ -1,0 +1,13 @@
+.image_slider {
+    width: 180px;
+    max-height: 500px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.image_slider img {
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    width: 150px;
+}

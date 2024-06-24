@@ -1,0 +1,15 @@
+.wrap {
+    display: flex;
+    width: 100%;
+}
+
+.wrap_outlet {
+    width: 80%;
+}
+
+.wrap_genre_list {
+    margin-top: -20px;
+    width: 20%;
+    min-height: calc(100vh - 80px);
+    border-left: 1px solid silver;
+}

@@ -1,0 +1,13 @@
+.reg_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}

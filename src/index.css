@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#bg_dark {
+    background-color: #171616;
+}
+
+#bg_light {
+    background-color: #e1f5e9;
+}
+
+#bg_dark_body {
+    background-color: #3e4242;
+}
+
+#bg_light_body {
+    background-color: #eefff2;
+}
+
+#bg_dark_genre {
+    background-color: #323434;
+}
+
+#bg_light_genre {
+    background-color: #ebf8ee;
+}
+
+#bg_dark_card {
+    background-color: #171616;
+    color: #ebf8ee;
+}
+
+#bg_light_card {
+    background-color: #ebf8ee;
+}
+
+#bg_dark_badge {
+    background-color: rgb(119, 204, 196);
+
+}
+
+#bg_light_badge {
+    background-color: #d8f5e5;
+}
+
+#bg_dark_top_badge {
+    background-color: #e1f5e9;
+}
+
+#bg_light_top_badge {
+    background-color: #93f8b6;
+}
+
+#icon_color_dark {
+    color: #e1f5e9;
+}
+
+#icon_color_light {
+    color: #042540;
+}
+
+#text_color_dark {
+    color: #3edee3;
+}
+
+#text_color_light {
+    color: #255d80;
+}
+
+
+#bar_light a {
+    margin-right: 10px;
+    display: block;
+    color: #5b6767;
+    text-decoration: none;
+
+}
+
+#bar_light a[class='active'] {
+    text-decoration: none;
+    color: #0c416c;
+}
+
+#bar_dark a {
+    margin-right: 10px;
+    display: block;
+    color: #e1f5e9;
+    text-decoration: none;
+}
+
+#bar_dark a[class='active'] {
+    text-decoration: none;
+    color: #12addb;
+}
+
+#genre_dark a {
+    color: #e1f5e9;
+}
+
+#genre_light a {
+    color: #0c416c;
+}
+
+#genre_light a:hover, .genre_dark a:hover {
+    font: 24px bold;
+}
+
+#genre_dark a[class='active'] {
+    font: 24px bold;
+    color: #c8e6f1;
+    background-color: #12addb;
+}
+
+#genre_light a[class='active'] {
+    text-decoration: none;
+    font: 24px bold;
+    color: #12addb;
+    background-color: rgb(210, 255, 218);
+}

@@ -1,0 +1,21 @@
+.login_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error {
+    color: red;
+}

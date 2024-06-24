@@ -1,0 +1,32 @@
+.wrap_card {
+    position: relative;
+    width: 250px;
+    min-height: 650px;
+    box-shadow: 6px 6px 8px 0 #1BFFF0;
+}
+
+.wrap_card:hover {
+    box-shadow: 6px 6px 8px 0 #efa807;
+}
+
+.poster {
+    cursor: pointer;
+    display: block;
+    min-height: 200px;
+    width: 250px;
+}
+
+.title {
+    margin: 0;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.favorite {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 0;
+    top: 0;
+}

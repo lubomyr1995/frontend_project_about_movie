@@ -1,0 +1,6 @@
+.wrap {
+    box-sizing: border-box;
+    padding: 5%;
+    width: 100%;
+    min-height: 100%;
+}
